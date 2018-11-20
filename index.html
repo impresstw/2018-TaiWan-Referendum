@@ -59,7 +59,7 @@
     </div>
   </div>
 </header>
-	<section class="bg-dark" id="about">
+<section class="bg-dark" id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center" style="font-weight: 500">
@@ -280,23 +280,46 @@
               <p class="item-intro text-muted">領銜人：盧秀燕</p>
               <hr/>
               <p>請選取「同意」綠色按鈕或「不同意」紅色按鈕。</p>
+              <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist"> 
+					  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">投同意</a> 
+					  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">投不同意</a> 
+					</div>
+                </div>
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+					<h4>你投了「同意票」代表著你同意：</h4>
+                    <p>每年必須調降1%火力發電比例。</p>
+					</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+											<h4>你投了「不同意票」代表著你不同意：</h4>
+                    <p>每年必須調降1%火力發電比例。</p>
+					  </div>
+                  </div>
+                </div>
+              </div>
+              <hr/>
               <div class="col-md-12" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
                 <div class="row justify-content-md-center" style="margin-top: :10">
                   <div class="col col-lg-2">
                     <div class="list-group" id="list-tab" role="tablist" > <a class="btn btn-white list-group-item-action active" id="list-Positive-list" style="height: 100%;width: 100%;min-width: 50px;min-height: 50px"  data-toggle="list" href="#list-Positive" role="tab" aria-controls="home" aria-pressed="true"><img class="rounded-circle img-fluid"  src="https://github.com/impresstw/2018-TaiWan-Referendum/blob/gh-pages/img/checked%20(1).png?raw=true"  alt="" style="padding-top: 2em"></a> </div>
                   </div>
                   <div class="col col-lg-2">
-				<div class="list-group" id="list-tab2" role="tablist" > <a class="btn btn-white list-group-item-action active" id="list-Negative-list" style="height: 100%;width: 100%;min-width: 50px;min-height: 50px"  data-toggle="list" href="#list-Negative" role="tab" aria-controls="home" aria-pressed="true"><img class="rounded-circle img-fluid"  src="https://github.com/impresstw/2018-TaiWan-Referendum/blob/gh-pages/img/cancel%20(1).png?raw=true"  alt="" style="padding-top: 2em"></a> </div>					 
+                    <div class="list-group" id="list-tab2" role="tablist" > <a class="btn btn-white list-group-item-action active" id="list-Negative-list" style="height: 100%;width: 100%;min-width: 50px;min-height: 50px"  data-toggle="list" href="#list-Negative" role="tab" aria-controls="home" aria-pressed="true"><img class="rounded-circle img-fluid"  src="https://github.com/impresstw/2018-TaiWan-Referendum/blob/gh-pages/img/cancel%20(1).png?raw=true"  alt="" style="padding-top: 2em"></a> </div>
                   </div>
                 </div>
               </div>
               <div class="" style="padding-left: 2;padding-top: 2em">
-                <div class="tab-content" id="nav-tabContent">
+                <div class="tab-content" id="nav-tabContent2">
                   <div class="tab-pane fade show active" id="list-Positive" role="tabpanel" aria-labelledby="list-home-list">
-                    <h4>你投了同意票，公投代表通過後：</h4>
+                    <h4>你投了「同意票」代表著你同意：</h4>
                     <p>每年必須調降1%火力發電比例。</p>
                   </div>
-                  <div class="tab-pane fade" id="list-Negative" role="tabpanel" aria-labelledby="list-profile-list">你投了反對票，公投代表通過後：</div>
+                  <div class="tab-pane fade" id="list-Negative" role="tabpanel" aria-labelledby="list-profile-list">
+					<h4>你投了「不同意票」代表著你不同意：</h4>
+                    <p>每年必須調降1%火力發電比例。</p>
                 </div>
               </div>
             </div>
